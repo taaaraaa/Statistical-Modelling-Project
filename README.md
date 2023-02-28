@@ -19,7 +19,7 @@
 Data Modeling
 
 ## Results
-(fill in what you found about the comparative quality of API coverage in your chosen area and the results of your model.)
+I found that Yelp API in this case is more complete than foursquare. Besides, the distribution of yelp data were more normal than that of foursquare. So I continued my project with Yelp data. In the statistical model, I identified 4 independent variables and one dependent one (number of free bikes). Using OLS and Backward selection method, I realized that I should only keep average reviews. There is a correlation between that and number of free bikes, though not a strong correlation.
 
 ## Challenges 
 - Getting the data from Yelp API, as the Authorization was not successful at first. Because, my code was missing a word. I must have included the word 'Bearer' before my Api key. My initial assumption was that the codes are similar with 4square, but it was not in fact. Finally I could understand my mistake and collect the data!
